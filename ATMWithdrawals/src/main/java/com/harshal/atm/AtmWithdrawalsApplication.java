@@ -9,7 +9,7 @@ import com.harshal.withdrawal.observer.AtmMoneyWithdraw;
 
 /**
  * @author - Harshal Sonawane
- *Assuming that ATM uses only 2000 and 5000 notes and setting note counts from constructor.
+ *Assuming that ATM uses only 2000 and 500 notes and setting note counts from constructor.
  * 
  */
 @SpringBootApplication
