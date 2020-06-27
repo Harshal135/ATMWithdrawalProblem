@@ -17,7 +17,7 @@ public class AtmWithdrawalsApplication {
 
 	
 	public static void main(String[] args) {
-		//SpringApplication.run(AtmWithdrawalsApplication.class, args);
+		SpringApplication.run(AtmWithdrawalsApplication.class, args);
 		/*Assuming that ATM uses only 2000 and 5000 notes and setting note counts from
 		constructor.*/
 		WithdrawSubject wwSubject = new WithdrawSubject(new ATMMoney(50, 10));
